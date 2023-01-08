@@ -62,9 +62,15 @@ button:focus-visible {
 
 #app {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+html {
+    background: url("./assets/background_tennis.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
